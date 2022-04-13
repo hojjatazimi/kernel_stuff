@@ -186,7 +186,7 @@ def send_trigger(eve, value):
 
 
 session_number = choose_session()
-excel_file = "./excels/run" + session_number + ".xlsx"
+excel_file = "./run" + session_number + ".xlsx"
 
 expName, expInfo, trig_id = config_experiment()
 fileName = make_file_name(expName, expInfo)
@@ -351,7 +351,7 @@ while globalClock.getTime() < duration:
                     routineTimer.add(0.960000)
                     # update component parameters for each repeat
                     imagePres.setPos([0, 0])
-                    imagePres.setImage('img/' + Stimuli)
+                    imagePres.setImage('../img/' + Stimuli)
                     key_resp_4 = event.BuilderKeyResponse()  # create an object of type KeyResponse
                     key_resp_4.status = NOT_STARTED
                     # keep track of which components have finished
@@ -445,9 +445,11 @@ while globalClock.getTime() < duration:
                         if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
                             win.flip()
                             if cntr == 1:
-                                if trial_index > 0:
-                                    send_trigger('end_trial', '0')
-                                send_trigger('start_trial', Condition + '-' + stimuli.replace('_', '-'))
+                                send_trigger('event_stim', Condition + '-' + stimuli.replace('_', '-'))
+
+                                # if trial_index > 0:
+                                #     send_trigger('end_trial', '0')
+                                # send_trigger('start_trial', Condition + '-' + stimuli.replace('_', '-'))
 
 
                     # -------Ending Routine "trial"-------
