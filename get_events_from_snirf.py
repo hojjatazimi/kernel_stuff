@@ -14,7 +14,7 @@ COL_EVENT = "Event"
 COLS_DEFAULT = [COL_TIMESTAMP, COL_DURATION, COL_VALUE]
 
 
-def get_events_from_snirf(filename: Union[str, Path]) -> Optional[pd.DataFrame]:
+def get_events_from_snirf(filename: Union[str, Path], hojjat= True) -> Optional[pd.DataFrame]:
     """Read events from a SNIRF file as a dataframe
 
     Parameters
@@ -62,7 +62,8 @@ def get_events_from_snirf(filename: Union[str, Path]) -> Optional[pd.DataFrame]:
             df_events.loc[df_events[col] == 1.0, col_prefix] = ".".join(col.split(".")[1:])
         df_events.drop(columns=cols, inplace=True)
 
-    df_events['Label'] = [str(x)[:str(x).find('-')] for x in df_events.Stim];
-    df_events['File'] = [str(x).replace('-', '_')[str(x).find('-')+1:] for x in df_events.Stim];
+    if hojjat:
+        df_events['Label'] = [str(x)[:str(x).find('-')] for x in df_events.Stim];
+        df_events['File'] = [str(x).replace('-', '_')[str(x).find('-')+1:] for x in df_events.Stim];
     
     return df_events
