@@ -1,0 +1,566 @@
+1.2841 	WARNING 	Speech-to-text recognition module not available (use command `pip install SpeechRecognition` to get it. Transcription will be unavailable.
+1.4787 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.9299 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1920, 1200]. Using actual size
+11.5947 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fb4a8fe56a0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fb4898a7d60>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.5948 	EXP 	window1: mouseVisible = True
+11.5948 	EXP 	window1: recordFrameIntervals = False
+11.7612 	EXP 	window1: recordFrameIntervals = True
+11.9449 	EXP 	window1: recordFrameIntervals = False
+11.9532 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='norm', win=Window(...))
+11.9541 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='norm', win=Window(...))
+11.9572 	EXP 	Created imagePres = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imagePres', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+12.0411 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thanks!', units='norm', win=Window(...), wrapWidth=1)
+12.0418 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='norm', win=Window(...))
+12.0464 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([0.5, 0.5, 0.5]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Hello World', units='norm', win=Window(...), wrapWidth=1)
+12.0465 	EXP 	launchScan: vol: 5  TR: 2.000s  skip: 0  sync: 't'
+12.0532 	EXP 	window1: mouseVisible = True
+12.0778 	EXP 	unnamed RatingScale: flipVert = False
+13.9666 	DATA 	Keypress: left
+14.0798 	DATA 	Keypress: right
+14.7668 	DATA 	Keypress: return
+14.7806 	EXP 	window1: mouseVisible = False
+14.7973 	DATA 	EmulatedKey: t
+14.7974 	EXP 	launchScan: start of scan
+14.8303 	EXP 	unnamed TextStim: text = '0 volumes\n0.000 seconds'
+16.7973 	DATA 	EmulatedKey: t
+16.8721 	EXP 	Imported ./runOne.xlsx as conditions, 600 conditions, 3 params
+16.8759 	EXP 	Created sequence: sequential, trialTypes=600, nReps=1, seed=None
+16.8764 	EXP 	New trial (rep=0, index=0): {'Stimuli': '7_1_5.png', 'Condition': 'bee', 'corrAns': None}
+16.8982 	EXP 	window1: recordFrameIntervals = False
+16.9153 	EXP 	image: autoDraw = False
+16.9153 	EXP 	imagePres: pos = array([0., 0.])
+16.9153 	EXP 	imagePres: image = '../img/7_1_5.png'
+16.9153 	EXP 	image_2: autoDraw = True
+16.9153 	EXP 	imagePres: autoDraw = True
+16.9155 	EXP 	window1: recordFrameIntervals = False
+17.8332 	EXP 	New trial (rep=0, index=1): {'Stimuli': '7_1_8.png', 'Condition': 'bee', 'corrAns': None}
+17.8530 	EXP 	window1: recordFrameIntervals = False
+17.8660 	EXP 	image_2: autoDraw = False
+17.8660 	EXP 	imagePres: autoDraw = False
+17.8660 	EXP 	image_2: autoDraw = False
+17.8660 	EXP 	imagePres: autoDraw = False
+17.8660 	EXP 	imagePres: pos = array([0., 0.])
+17.8660 	EXP 	imagePres: image = '../img/7_1_8.png'
+17.8660 	EXP 	image_2: autoDraw = True
+17.8660 	EXP 	imagePres: autoDraw = True
+17.8663 	EXP 	window1: recordFrameIntervals = False
+18.7973 	DATA 	EmulatedKey: t
+18.8170 	EXP 	New trial (rep=0, index=2): {'Stimuli': '7_1_2.png', 'Condition': 'bee', 'corrAns': None}
+18.8402 	EXP 	window1: recordFrameIntervals = False
+18.8502 	EXP 	image_2: autoDraw = False
+18.8502 	EXP 	imagePres: autoDraw = False
+18.8502 	EXP 	imagePres: pos = array([0., 0.])
+18.8502 	EXP 	imagePres: image = '../img/7_1_2.png'
+18.8502 	EXP 	image_2: autoDraw = True
+18.8502 	EXP 	imagePres: autoDraw = True
+18.8504 	EXP 	window1: recordFrameIntervals = False
+19.7681 	EXP 	New trial (rep=0, index=3): {'Stimuli': '7_1_12.png', 'Condition': 'bee', 'corrAns': None}
+19.7934 	EXP 	window1: recordFrameIntervals = False
+19.8009 	EXP 	image_2: autoDraw = False
+19.8009 	EXP 	imagePres: autoDraw = False
+19.8009 	EXP 	image_2: autoDraw = False
+19.8009 	EXP 	imagePres: autoDraw = False
+19.8009 	EXP 	imagePres: pos = array([0., 0.])
+19.8009 	EXP 	imagePres: image = '../img/7_1_12.png'
+19.8009 	EXP 	image_2: autoDraw = True
+19.8009 	EXP 	imagePres: autoDraw = True
+19.8011 	EXP 	window1: recordFrameIntervals = False
+20.7184 	EXP 	New trial (rep=0, index=4): {'Stimuli': '36_1_4.png', 'Condition': 'key', 'corrAns': 'right'}
+20.7463 	EXP 	window1: recordFrameIntervals = False
+20.7525 	EXP 	image_2: autoDraw = False
+20.7525 	EXP 	imagePres: autoDraw = False
+20.7525 	EXP 	image_2: autoDraw = False
+20.7525 	EXP 	imagePres: autoDraw = False
+20.7525 	EXP 	imagePres: pos = array([0., 0.])
+20.7525 	EXP 	imagePres: image = '../img/36_1_4.png'
+20.7525 	EXP 	image_2: autoDraw = True
+20.7525 	EXP 	imagePres: autoDraw = True
+20.7527 	EXP 	window1: recordFrameIntervals = False
+20.7973 	DATA 	EmulatedKey: t
+21.6693 	EXP 	New trial (rep=0, index=5): {'Stimuli': '36_1_7.png', 'Condition': 'key', 'corrAns': None}
+21.6908 	EXP 	window1: recordFrameIntervals = False
+21.7024 	EXP 	image_2: autoDraw = False
+21.7024 	EXP 	imagePres: autoDraw = False
+21.7024 	EXP 	image_2: autoDraw = False
+21.7024 	EXP 	imagePres: autoDraw = False
+21.7024 	EXP 	imagePres: pos = array([0., 0.])
+21.7024 	EXP 	imagePres: image = '../img/36_1_7.png'
+21.7024 	EXP 	image_2: autoDraw = True
+21.7024 	EXP 	imagePres: autoDraw = True
+21.7027 	EXP 	window1: recordFrameIntervals = False
+22.6201 	EXP 	New trial (rep=0, index=6): {'Stimuli': '36_1_11.png', 'Condition': 'key', 'corrAns': None}
+22.6422 	EXP 	window1: recordFrameIntervals = False
+22.6531 	EXP 	image_2: autoDraw = False
+22.6531 	EXP 	imagePres: autoDraw = False
+22.6531 	EXP 	image_2: autoDraw = False
+22.6531 	EXP 	imagePres: autoDraw = False
+22.6531 	EXP 	imagePres: pos = array([0., 0.])
+22.6531 	EXP 	imagePres: image = '../img/36_1_11.png'
+22.6531 	EXP 	image_2: autoDraw = True
+22.6531 	EXP 	imagePres: autoDraw = True
+22.6533 	EXP 	window1: recordFrameIntervals = False
+22.7973 	DATA 	EmulatedKey: t
+23.5705 	EXP 	New trial (rep=0, index=7): {'Stimuli': '36_1_14.png', 'Condition': 'key', 'corrAns': None}
+23.5916 	EXP 	window1: recordFrameIntervals = False
+23.6039 	EXP 	image_2: autoDraw = False
+23.6039 	EXP 	imagePres: autoDraw = False
+23.6039 	EXP 	image_2: autoDraw = False
+23.6039 	EXP 	imagePres: autoDraw = False
+23.6039 	EXP 	imagePres: pos = array([0., 0.])
+23.6039 	EXP 	imagePres: image = '../img/36_1_14.png'
+23.6039 	EXP 	image_2: autoDraw = True
+23.6039 	EXP 	imagePres: autoDraw = True
+23.6041 	EXP 	window1: recordFrameIntervals = False
+24.5216 	EXP 	New trial (rep=0, index=8): {'Stimuli': '36_1_5.png', 'Condition': 'key', 'corrAns': None}
+24.5398 	EXP 	window1: recordFrameIntervals = False
+24.5546 	EXP 	image_2: autoDraw = False
+24.5546 	EXP 	imagePres: autoDraw = False
+24.5546 	EXP 	image_2: autoDraw = False
+24.5546 	EXP 	imagePres: autoDraw = False
+24.5546 	EXP 	imagePres: pos = array([0., 0.])
+24.5546 	EXP 	imagePres: image = '../img/36_1_5.png'
+24.5546 	EXP 	image_2: autoDraw = True
+24.5546 	EXP 	imagePres: autoDraw = True
+24.5549 	EXP 	window1: recordFrameIntervals = False
+25.4720 	EXP 	New trial (rep=0, index=9): {'Stimuli': '36_1_2.png', 'Condition': 'key', 'corrAns': None}
+25.4970 	EXP 	window1: recordFrameIntervals = False
+25.5053 	EXP 	image_2: autoDraw = False
+25.5053 	EXP 	imagePres: autoDraw = False
+25.5053 	EXP 	image_2: autoDraw = False
+25.5053 	EXP 	imagePres: autoDraw = False
+25.5053 	EXP 	imagePres: pos = array([0., 0.])
+25.5053 	EXP 	imagePres: image = '../img/36_1_2.png'
+25.5053 	EXP 	image_2: autoDraw = True
+25.5053 	EXP 	imagePres: autoDraw = True
+25.5055 	EXP 	window1: recordFrameIntervals = False
+26.4235 	EXP 	New trial (rep=0, index=10): {'Stimuli': '30_1_10.png', 'Condition': 'dolphin', 'corrAns': 'right'}
+26.4503 	EXP 	window1: recordFrameIntervals = False
+26.4565 	EXP 	image_2: autoDraw = False
+26.4565 	EXP 	imagePres: autoDraw = False
+26.4565 	EXP 	image_2: autoDraw = False
+26.4565 	EXP 	imagePres: autoDraw = False
+26.4565 	EXP 	imagePres: pos = array([0., 0.])
+26.4565 	EXP 	imagePres: image = '../img/30_1_10.png'
+26.4565 	EXP 	image_2: autoDraw = True
+26.4565 	EXP 	imagePres: autoDraw = True
+26.4567 	EXP 	window1: recordFrameIntervals = False
+27.3742 	EXP 	New trial (rep=0, index=11): {'Stimuli': '30_1_8.png', 'Condition': 'dolphin', 'corrAns': None}
+27.4009 	EXP 	window1: recordFrameIntervals = False
+27.4072 	EXP 	image_2: autoDraw = False
+27.4072 	EXP 	imagePres: autoDraw = False
+27.4072 	EXP 	image_2: autoDraw = False
+27.4072 	EXP 	imagePres: autoDraw = False
+27.4072 	EXP 	imagePres: pos = array([0., 0.])
+27.4072 	EXP 	imagePres: image = '../img/30_1_8.png'
+27.4072 	EXP 	image_2: autoDraw = True
+27.4072 	EXP 	imagePres: autoDraw = True
+27.4074 	EXP 	window1: recordFrameIntervals = False
+28.3242 	EXP 	New trial (rep=0, index=12): {'Stimuli': '3_1_3.png', 'Condition': 'cockroach', 'corrAns': 'right'}
+28.3544 	EXP 	window1: recordFrameIntervals = False
+28.3743 	EXP 	image_2: autoDraw = False
+28.3743 	EXP 	imagePres: autoDraw = False
+28.3743 	EXP 	image_2: autoDraw = False
+28.3743 	EXP 	imagePres: autoDraw = False
+28.3743 	EXP 	imagePres: pos = array([0., 0.])
+28.3743 	EXP 	imagePres: image = '../img/3_1_3.png'
+28.3743 	EXP 	image_2: autoDraw = True
+28.3743 	EXP 	imagePres: autoDraw = True
+28.3753 	EXP 	window1: recordFrameIntervals = False
+29.2756 	EXP 	New trial (rep=0, index=13): {'Stimuli': '3_1_7.png', 'Condition': 'cockroach', 'corrAns': None}
+29.2978 	EXP 	window1: recordFrameIntervals = False
+29.3083 	EXP 	image_2: autoDraw = False
+29.3083 	EXP 	imagePres: autoDraw = False
+29.3083 	EXP 	image_2: autoDraw = False
+29.3083 	EXP 	imagePres: autoDraw = False
+29.3083 	EXP 	imagePres: pos = array([0., 0.])
+29.3083 	EXP 	imagePres: image = '../img/3_1_7.png'
+29.3083 	EXP 	image_2: autoDraw = True
+29.3083 	EXP 	imagePres: autoDraw = True
+29.3085 	EXP 	window1: recordFrameIntervals = False
+30.2263 	EXP 	New trial (rep=0, index=14): {'Stimuli': '3_1_10.png', 'Condition': 'cockroach', 'corrAns': None}
+30.2494 	EXP 	window1: recordFrameIntervals = False
+30.2591 	EXP 	image_2: autoDraw = False
+30.2591 	EXP 	imagePres: autoDraw = False
+30.2591 	EXP 	image_2: autoDraw = False
+30.2591 	EXP 	imagePres: autoDraw = False
+30.2591 	EXP 	imagePres: pos = array([0., 0.])
+30.2591 	EXP 	imagePres: image = '../img/3_1_10.png'
+30.2591 	EXP 	image_2: autoDraw = True
+30.2591 	EXP 	imagePres: autoDraw = True
+30.2593 	EXP 	window1: recordFrameIntervals = False
+31.1769 	EXP 	New trial (rep=0, index=15): {'Stimuli': '3_1_13.png', 'Condition': 'cockroach', 'corrAns': None}
+31.2021 	EXP 	window1: recordFrameIntervals = False
+31.2098 	EXP 	image_2: autoDraw = False
+31.2098 	EXP 	imagePres: autoDraw = False
+31.2098 	EXP 	image_2: autoDraw = False
+31.2098 	EXP 	imagePres: autoDraw = False
+31.2098 	EXP 	imagePres: pos = array([0., 0.])
+31.2098 	EXP 	imagePres: image = '../img/3_1_13.png'
+31.2098 	EXP 	image_2: autoDraw = True
+31.2098 	EXP 	imagePres: autoDraw = True
+31.2100 	EXP 	window1: recordFrameIntervals = False
+32.1274 	EXP 	New trial (rep=0, index=16): {'Stimuli': '3_1_9.png', 'Condition': 'cockroach', 'corrAns': None}
+32.1488 	EXP 	window1: recordFrameIntervals = False
+32.1606 	EXP 	image_2: autoDraw = False
+32.1606 	EXP 	imagePres: autoDraw = False
+32.1606 	EXP 	image_2: autoDraw = False
+32.1606 	EXP 	imagePres: autoDraw = False
+32.1606 	EXP 	imagePres: pos = array([0., 0.])
+32.1606 	EXP 	imagePres: image = '../img/3_1_9.png'
+32.1606 	EXP 	image_2: autoDraw = True
+32.1606 	EXP 	imagePres: autoDraw = True
+32.1610 	EXP 	window1: recordFrameIntervals = False
+33.0784 	EXP 	New trial (rep=0, index=17): {'Stimuli': '3_1_5.png', 'Condition': 'cockroach', 'corrAns': None}
+33.0970 	EXP 	window1: recordFrameIntervals = False
+33.1114 	EXP 	image_2: autoDraw = False
+33.1114 	EXP 	imagePres: autoDraw = False
+33.1114 	EXP 	image_2: autoDraw = False
+33.1114 	EXP 	imagePres: autoDraw = False
+33.1114 	EXP 	imagePres: pos = array([0., 0.])
+33.1114 	EXP 	imagePres: image = '../img/3_1_5.png'
+33.1114 	EXP 	image_2: autoDraw = True
+33.1114 	EXP 	imagePres: autoDraw = True
+33.1116 	EXP 	window1: recordFrameIntervals = False
+34.0291 	EXP 	New trial (rep=0, index=18): {'Stimuli': '11_1_1.png', 'Condition': 'chicken', 'corrAns': 'right'}
+34.0530 	EXP 	window1: recordFrameIntervals = False
+34.0624 	EXP 	image_2: autoDraw = False
+34.0624 	EXP 	imagePres: autoDraw = False
+34.0624 	EXP 	image_2: autoDraw = False
+34.0624 	EXP 	imagePres: autoDraw = False
+34.0624 	EXP 	imagePres: pos = array([0., 0.])
+34.0624 	EXP 	imagePres: image = '../img/11_1_1.png'
+34.0624 	EXP 	image_2: autoDraw = True
+34.0624 	EXP 	imagePres: autoDraw = True
+34.0626 	EXP 	window1: recordFrameIntervals = False
+34.9797 	EXP 	New trial (rep=0, index=19): {'Stimuli': '11_1_2.png', 'Condition': 'chicken', 'corrAns': None}
+35.0077 	EXP 	window1: recordFrameIntervals = False
+35.0142 	EXP 	image_2: autoDraw = False
+35.0142 	EXP 	imagePres: autoDraw = False
+35.0142 	EXP 	image_2: autoDraw = False
+35.0142 	EXP 	imagePres: autoDraw = False
+35.0142 	EXP 	imagePres: pos = array([0., 0.])
+35.0142 	EXP 	imagePres: image = '../img/11_1_2.png'
+35.0142 	EXP 	image_2: autoDraw = True
+35.0142 	EXP 	imagePres: autoDraw = True
+35.0144 	EXP 	window1: recordFrameIntervals = False
+35.9321 	EXP 	New trial (rep=0, index=20): {'Stimuli': '11_1_3.png', 'Condition': 'chicken', 'corrAns': None}
+35.9589 	EXP 	window1: recordFrameIntervals = False
+35.9803 	EXP 	image_2: autoDraw = False
+35.9803 	EXP 	imagePres: autoDraw = False
+35.9803 	EXP 	image_2: autoDraw = False
+35.9803 	EXP 	imagePres: autoDraw = False
+35.9803 	EXP 	imagePres: pos = array([0., 0.])
+35.9803 	EXP 	imagePres: image = '../img/11_1_3.png'
+35.9803 	EXP 	image_2: autoDraw = True
+35.9803 	EXP 	imagePres: autoDraw = True
+35.9806 	EXP 	window1: recordFrameIntervals = False
+36.8825 	EXP 	New trial (rep=0, index=21): {'Stimuli': '5_1_1.png', 'Condition': 'spider', 'corrAns': 'right'}
+36.9013 	EXP 	window1: recordFrameIntervals = False
+36.9144 	EXP 	image_2: autoDraw = False
+36.9144 	EXP 	imagePres: autoDraw = False
+36.9144 	EXP 	image_2: autoDraw = False
+36.9144 	EXP 	imagePres: autoDraw = False
+36.9144 	EXP 	imagePres: pos = array([0., 0.])
+36.9144 	EXP 	imagePres: image = '../img/5_1_1.png'
+36.9144 	EXP 	image_2: autoDraw = True
+36.9144 	EXP 	imagePres: autoDraw = True
+36.9146 	EXP 	window1: recordFrameIntervals = False
+37.8326 	EXP 	New trial (rep=0, index=22): {'Stimuli': '5_1_2.png', 'Condition': 'spider', 'corrAns': None}
+37.8590 	EXP 	window1: recordFrameIntervals = False
+37.8653 	EXP 	image_2: autoDraw = False
+37.8653 	EXP 	imagePres: autoDraw = False
+37.8653 	EXP 	image_2: autoDraw = False
+37.8653 	EXP 	imagePres: autoDraw = False
+37.8653 	EXP 	imagePres: pos = array([0., 0.])
+37.8653 	EXP 	imagePres: image = '../img/5_1_2.png'
+37.8653 	EXP 	image_2: autoDraw = True
+37.8653 	EXP 	imagePres: autoDraw = True
+37.8655 	EXP 	window1: recordFrameIntervals = False
+38.7830 	EXP 	New trial (rep=0, index=23): {'Stimuli': '32_1_13.png', 'Condition': 'car', 'corrAns': 'right'}
+38.8015 	EXP 	window1: recordFrameIntervals = False
+38.8159 	EXP 	image_2: autoDraw = False
+38.8159 	EXP 	imagePres: autoDraw = False
+38.8159 	EXP 	image_2: autoDraw = False
+38.8159 	EXP 	imagePres: autoDraw = False
+38.8159 	EXP 	imagePres: pos = array([0., 0.])
+38.8159 	EXP 	imagePres: image = '../img/32_1_13.png'
+38.8159 	EXP 	image_2: autoDraw = True
+38.8159 	EXP 	imagePres: autoDraw = True
+38.8162 	EXP 	window1: recordFrameIntervals = False
+39.7333 	EXP 	New trial (rep=0, index=24): {'Stimuli': '32_1_14.png', 'Condition': 'car', 'corrAns': None}
+39.7577 	EXP 	window1: recordFrameIntervals = False
+39.7666 	EXP 	image_2: autoDraw = False
+39.7666 	EXP 	imagePres: autoDraw = False
+39.7666 	EXP 	image_2: autoDraw = False
+39.7666 	EXP 	imagePres: autoDraw = False
+39.7666 	EXP 	imagePres: pos = array([0., 0.])
+39.7666 	EXP 	imagePres: image = '../img/32_1_14.png'
+39.7666 	EXP 	image_2: autoDraw = True
+39.7666 	EXP 	imagePres: autoDraw = True
+39.7668 	EXP 	window1: recordFrameIntervals = False
+40.6845 	EXP 	New trial (rep=0, index=25): {'Stimuli': '32_1_15.png', 'Condition': 'car', 'corrAns': None}
+40.7110 	EXP 	window1: recordFrameIntervals = False
+40.7172 	EXP 	image_2: autoDraw = False
+40.7172 	EXP 	imagePres: autoDraw = False
+40.7172 	EXP 	image_2: autoDraw = False
+40.7172 	EXP 	imagePres: autoDraw = False
+40.7172 	EXP 	imagePres: pos = array([0., 0.])
+40.7172 	EXP 	imagePres: image = '../img/32_1_15.png'
+40.7172 	EXP 	image_2: autoDraw = True
+40.7172 	EXP 	imagePres: autoDraw = True
+40.7174 	EXP 	window1: recordFrameIntervals = False
+41.6359 	EXP 	New trial (rep=0, index=26): {'Stimuli': '20_1_1.png', 'Condition': 'beatle', 'corrAns': 'right'}
+41.6594 	EXP 	window1: recordFrameIntervals = False
+41.6695 	EXP 	image_2: autoDraw = False
+41.6695 	EXP 	imagePres: autoDraw = False
+41.6695 	EXP 	image_2: autoDraw = False
+41.6695 	EXP 	imagePres: autoDraw = False
+41.6695 	EXP 	imagePres: pos = array([0., 0.])
+41.6695 	EXP 	imagePres: image = '../img/20_1_1.png'
+41.6695 	EXP 	image_2: autoDraw = True
+41.6695 	EXP 	imagePres: autoDraw = True
+41.6697 	EXP 	window1: recordFrameIntervals = False
+42.5862 	EXP 	New trial (rep=0, index=27): {'Stimuli': '20_1_14.png', 'Condition': 'beatle', 'corrAns': None}
+42.6118 	EXP 	window1: recordFrameIntervals = False
+42.6200 	EXP 	image_2: autoDraw = False
+42.6200 	EXP 	imagePres: autoDraw = False
+42.6200 	EXP 	image_2: autoDraw = False
+42.6200 	EXP 	imagePres: autoDraw = False
+42.6200 	EXP 	imagePres: pos = array([0., 0.])
+42.6200 	EXP 	imagePres: image = '../img/20_1_14.png'
+42.6200 	EXP 	image_2: autoDraw = True
+42.6200 	EXP 	imagePres: autoDraw = True
+42.6202 	EXP 	window1: recordFrameIntervals = False
+43.5365 	EXP 	New trial (rep=0, index=28): {'Stimuli': '20_1_3.png', 'Condition': 'beatle', 'corrAns': None}
+43.5567 	EXP 	window1: recordFrameIntervals = False
+43.5696 	EXP 	image_2: autoDraw = False
+43.5696 	EXP 	imagePres: autoDraw = False
+43.5696 	EXP 	image_2: autoDraw = False
+43.5696 	EXP 	imagePres: autoDraw = False
+43.5696 	EXP 	imagePres: pos = array([0., 0.])
+43.5696 	EXP 	imagePres: image = '../img/20_1_3.png'
+43.5696 	EXP 	image_2: autoDraw = True
+43.5696 	EXP 	imagePres: autoDraw = True
+43.5698 	EXP 	window1: recordFrameIntervals = False
+44.4870 	EXP 	New trial (rep=0, index=29): {'Stimuli': '20_1_11.png', 'Condition': 'beatle', 'corrAns': None}
+44.5147 	EXP 	window1: recordFrameIntervals = False
+44.5212 	EXP 	image_2: autoDraw = False
+44.5212 	EXP 	imagePres: autoDraw = False
+44.5212 	EXP 	image_2: autoDraw = False
+44.5212 	EXP 	imagePres: autoDraw = False
+44.5212 	EXP 	imagePres: pos = array([0., 0.])
+44.5212 	EXP 	imagePres: image = '../img/20_1_11.png'
+44.5212 	EXP 	image_2: autoDraw = True
+44.5212 	EXP 	imagePres: autoDraw = True
+44.5216 	EXP 	window1: recordFrameIntervals = False
+45.4380 	EXP 	New trial (rep=0, index=30): {'Stimuli': '20_1_5.png', 'Condition': 'beatle', 'corrAns': None}
+45.4575 	EXP 	window1: recordFrameIntervals = False
+45.4711 	EXP 	image_2: autoDraw = False
+45.4711 	EXP 	imagePres: autoDraw = False
+45.4711 	EXP 	image_2: autoDraw = False
+45.4711 	EXP 	imagePres: autoDraw = False
+45.4711 	EXP 	imagePres: pos = array([0., 0.])
+45.4711 	EXP 	imagePres: image = '../img/20_1_5.png'
+45.4711 	EXP 	image_2: autoDraw = True
+45.4711 	EXP 	imagePres: autoDraw = True
+45.4713 	EXP 	window1: recordFrameIntervals = False
+46.3887 	EXP 	New trial (rep=0, index=31): {'Stimuli': '20_1_6.png', 'Condition': 'beatle', 'corrAns': None}
+46.4147 	EXP 	window1: recordFrameIntervals = False
+46.4218 	EXP 	image_2: autoDraw = False
+46.4218 	EXP 	imagePres: autoDraw = False
+46.4218 	EXP 	image_2: autoDraw = False
+46.4218 	EXP 	imagePres: autoDraw = False
+46.4218 	EXP 	imagePres: pos = array([0., 0.])
+46.4218 	EXP 	imagePres: image = '../img/20_1_6.png'
+46.4218 	EXP 	image_2: autoDraw = True
+46.4218 	EXP 	imagePres: autoDraw = True
+46.4221 	EXP 	window1: recordFrameIntervals = False
+47.3392 	EXP 	New trial (rep=0, index=32): {'Stimuli': '24_1_3.png', 'Condition': 'peacock', 'corrAns': 'right'}
+47.3679 	EXP 	window1: recordFrameIntervals = False
+47.3742 	EXP 	image_2: autoDraw = False
+47.3742 	EXP 	imagePres: autoDraw = False
+47.3742 	EXP 	image_2: autoDraw = False
+47.3742 	EXP 	imagePres: autoDraw = False
+47.3742 	EXP 	imagePres: pos = array([0., 0.])
+47.3742 	EXP 	imagePres: image = '../img/24_1_3.png'
+47.3742 	EXP 	image_2: autoDraw = True
+47.3742 	EXP 	imagePres: autoDraw = True
+47.3744 	EXP 	window1: recordFrameIntervals = False
+48.2902 	EXP 	New trial (rep=0, index=33): {'Stimuli': '24_1_7.png', 'Condition': 'peacock', 'corrAns': None}
+48.3102 	EXP 	window1: recordFrameIntervals = False
+48.3233 	EXP 	image_2: autoDraw = False
+48.3233 	EXP 	imagePres: autoDraw = False
+48.3233 	EXP 	image_2: autoDraw = False
+48.3233 	EXP 	imagePres: autoDraw = False
+48.3233 	EXP 	imagePres: pos = array([0., 0.])
+48.3233 	EXP 	imagePres: image = '../img/24_1_7.png'
+48.3233 	EXP 	image_2: autoDraw = True
+48.3233 	EXP 	imagePres: autoDraw = True
+48.3236 	EXP 	window1: recordFrameIntervals = False
+49.2410 	EXP 	New trial (rep=0, index=34): {'Stimuli': '24_1_10.png', 'Condition': 'peacock', 'corrAns': None}
+49.2665 	EXP 	window1: recordFrameIntervals = False
+49.2741 	EXP 	image_2: autoDraw = False
+49.2741 	EXP 	imagePres: autoDraw = False
+49.2741 	EXP 	image_2: autoDraw = False
+49.2741 	EXP 	imagePres: autoDraw = False
+49.2741 	EXP 	imagePres: pos = array([0., 0.])
+49.2741 	EXP 	imagePres: image = '../img/24_1_10.png'
+49.2741 	EXP 	image_2: autoDraw = True
+49.2741 	EXP 	imagePres: autoDraw = True
+49.2758 	EXP 	window1: recordFrameIntervals = False
+50.1920 	EXP 	New trial (rep=0, index=35): {'Stimuli': '24_1_13.png', 'Condition': 'peacock', 'corrAns': None}
+50.2145 	EXP 	window1: recordFrameIntervals = False
+50.2248 	EXP 	image_2: autoDraw = False
+50.2248 	EXP 	imagePres: autoDraw = False
+50.2248 	EXP 	image_2: autoDraw = False
+50.2248 	EXP 	imagePres: autoDraw = False
+50.2248 	EXP 	imagePres: pos = array([0., 0.])
+50.2248 	EXP 	imagePres: image = '../img/24_1_13.png'
+50.2248 	EXP 	image_2: autoDraw = True
+50.2248 	EXP 	imagePres: autoDraw = True
+50.2250 	EXP 	window1: recordFrameIntervals = False
+51.1425 	EXP 	New trial (rep=0, index=36): {'Stimuli': '24_1_15.png', 'Condition': 'peacock', 'corrAns': None}
+51.1607 	EXP 	window1: recordFrameIntervals = False
+51.1757 	EXP 	image_2: autoDraw = False
+51.1757 	EXP 	imagePres: autoDraw = False
+51.1757 	EXP 	image_2: autoDraw = False
+51.1757 	EXP 	imagePres: autoDraw = False
+51.1757 	EXP 	imagePres: pos = array([0., 0.])
+51.1757 	EXP 	imagePres: image = '../img/24_1_15.png'
+51.1757 	EXP 	image_2: autoDraw = True
+51.1757 	EXP 	imagePres: autoDraw = True
+51.1759 	EXP 	window1: recordFrameIntervals = False
+52.0930 	EXP 	New trial (rep=0, index=37): {'Stimuli': '24_1_6.png', 'Condition': 'peacock', 'corrAns': None}
+52.1138 	EXP 	window1: recordFrameIntervals = False
+52.1263 	EXP 	image_2: autoDraw = False
+52.1263 	EXP 	imagePres: autoDraw = False
+52.1263 	EXP 	image_2: autoDraw = False
+52.1263 	EXP 	imagePres: autoDraw = False
+52.1263 	EXP 	imagePres: pos = array([0., 0.])
+52.1263 	EXP 	imagePres: image = '../img/24_1_6.png'
+52.1263 	EXP 	image_2: autoDraw = True
+52.1263 	EXP 	imagePres: autoDraw = True
+52.1265 	EXP 	window1: recordFrameIntervals = False
+53.0442 	EXP 	New trial (rep=0, index=38): {'Stimuli': '19_1_1.png', 'Condition': 'turtle', 'corrAns': 'right'}
+53.0725 	EXP 	window1: recordFrameIntervals = False
+53.0938 	EXP 	image_2: autoDraw = False
+53.0938 	EXP 	imagePres: autoDraw = False
+53.0938 	EXP 	image_2: autoDraw = False
+53.0938 	EXP 	imagePres: autoDraw = False
+53.0938 	EXP 	imagePres: pos = array([0., 0.])
+53.0938 	EXP 	imagePres: image = '../img/19_1_1.png'
+53.0938 	EXP 	image_2: autoDraw = True
+53.0938 	EXP 	imagePres: autoDraw = True
+53.0940 	EXP 	window1: recordFrameIntervals = False
+53.9951 	EXP 	New trial (rep=0, index=39): {'Stimuli': '19_1_2.png', 'Condition': 'turtle', 'corrAns': None}
+54.0166 	EXP 	window1: recordFrameIntervals = False
+54.0279 	EXP 	image_2: autoDraw = False
+54.0279 	EXP 	imagePres: autoDraw = False
+54.0279 	EXP 	image_2: autoDraw = False
+54.0279 	EXP 	imagePres: autoDraw = False
+54.0279 	EXP 	imagePres: pos = array([0., 0.])
+54.0279 	EXP 	imagePres: image = '../img/19_1_2.png'
+54.0279 	EXP 	image_2: autoDraw = True
+54.0279 	EXP 	imagePres: autoDraw = True
+54.0281 	EXP 	window1: recordFrameIntervals = False
+54.9706 	EXP 	New trial (rep=0, index=40): {'Stimuli': '17_1_1.png', 'Condition': 'fish', 'corrAns': 'right'}
+54.9969 	EXP 	window1: recordFrameIntervals = False
+55.0212 	EXP 	image_2: autoDraw = False
+55.0212 	EXP 	imagePres: autoDraw = False
+55.0212 	EXP 	imagePres: pos = array([0., 0.])
+55.0212 	EXP 	imagePres: image = '../img/17_1_1.png'
+55.0212 	EXP 	image_2: autoDraw = True
+55.0212 	EXP 	imagePres: autoDraw = True
+55.0215 	EXP 	window1: recordFrameIntervals = False
+55.9388 	EXP 	New trial (rep=0, index=41): {'Stimuli': '17_1_2.png', 'Condition': 'fish', 'corrAns': None}
+55.9557 	EXP 	window1: recordFrameIntervals = False
+55.9877 	EXP 	image_2: autoDraw = False
+55.9877 	EXP 	imagePres: autoDraw = False
+55.9877 	EXP 	imagePres: pos = array([0., 0.])
+55.9877 	EXP 	imagePres: image = '../img/17_1_2.png'
+55.9877 	EXP 	image_2: autoDraw = True
+55.9877 	EXP 	imagePres: autoDraw = True
+55.9880 	EXP 	window1: recordFrameIntervals = False
+56.9062 	EXP 	New trial (rep=0, index=42): {'Stimuli': '33_1_1.png', 'Condition': 'bicycle', 'corrAns': 'right'}
+56.9282 	EXP 	window1: recordFrameIntervals = False
+56.9551 	EXP 	image_2: autoDraw = False
+56.9551 	EXP 	imagePres: autoDraw = False
+56.9551 	EXP 	imagePres: pos = array([0., 0.])
+56.9551 	EXP 	imagePres: image = '../img/33_1_1.png'
+56.9551 	EXP 	image_2: autoDraw = True
+56.9551 	EXP 	imagePres: autoDraw = True
+56.9553 	EXP 	window1: recordFrameIntervals = False
+57.8771 	EXP 	New trial (rep=0, index=43): {'Stimuli': '33_1_2.png', 'Condition': 'bicycle', 'corrAns': None}
+57.8972 	EXP 	window1: recordFrameIntervals = False
+57.9253 	EXP 	image_2: autoDraw = False
+57.9253 	EXP 	imagePres: autoDraw = False
+57.9253 	EXP 	imagePres: pos = array([0., 0.])
+57.9253 	EXP 	imagePres: image = '../img/33_1_2.png'
+57.9253 	EXP 	image_2: autoDraw = True
+57.9253 	EXP 	imagePres: autoDraw = True
+57.9256 	EXP 	window1: recordFrameIntervals = False
+58.8449 	EXP 	New trial (rep=0, index=44): {'Stimuli': '33_1_3.png', 'Condition': 'bicycle', 'corrAns': None}
+58.8590 	EXP 	window1: recordFrameIntervals = False
+58.8902 	EXP 	image_2: autoDraw = False
+58.8902 	EXP 	imagePres: autoDraw = False
+58.8902 	EXP 	imagePres: pos = array([0., 0.])
+58.8902 	EXP 	imagePres: image = '../img/33_1_3.png'
+58.8902 	EXP 	image_2: autoDraw = True
+58.8902 	EXP 	imagePres: autoDraw = True
+58.8904 	EXP 	window1: recordFrameIntervals = False
+59.8141 	EXP 	New trial (rep=0, index=45): {'Stimuli': '33_1_4.png', 'Condition': 'bicycle', 'corrAns': None}
+59.8384 	EXP 	window1: recordFrameIntervals = False
+59.8633 	EXP 	image_2: autoDraw = False
+59.8633 	EXP 	imagePres: autoDraw = False
+59.8633 	EXP 	imagePres: pos = array([0., 0.])
+59.8633 	EXP 	imagePres: image = '../img/33_1_4.png'
+59.8633 	EXP 	image_2: autoDraw = True
+59.8633 	EXP 	imagePres: autoDraw = True
+59.8637 	EXP 	window1: recordFrameIntervals = False
+60.7806 	EXP 	New trial (rep=0, index=46): {'Stimuli': '31_1_1.png', 'Condition': 'airplane', 'corrAns': 'right'}
+60.7995 	EXP 	window1: recordFrameIntervals = False
+60.8284 	EXP 	image_2: autoDraw = False
+60.8284 	EXP 	imagePres: autoDraw = False
+60.8284 	EXP 	imagePres: pos = array([0., 0.])
+60.8284 	EXP 	imagePres: image = '../img/31_1_1.png'
+60.8284 	EXP 	image_2: autoDraw = True
+60.8284 	EXP 	imagePres: autoDraw = True
+60.8288 	EXP 	window1: recordFrameIntervals = False
+61.7497 	EXP 	New trial (rep=0, index=47): {'Stimuli': '31_1_2.png', 'Condition': 'airplane', 'corrAns': None}
+61.7736 	EXP 	window1: recordFrameIntervals = False
+61.7993 	EXP 	image_2: autoDraw = False
+61.7993 	EXP 	imagePres: autoDraw = False
+61.7993 	EXP 	imagePres: pos = array([0., 0.])
+61.7993 	EXP 	imagePres: image = '../img/31_1_2.png'
+61.7993 	EXP 	image_2: autoDraw = True
+61.7993 	EXP 	imagePres: autoDraw = True
+61.7996 	EXP 	window1: recordFrameIntervals = False
+62.7273 	EXP 	New trial (rep=0, index=48): {'Stimuli': '31_1_3.png', 'Condition': 'airplane', 'corrAns': None}
+62.7569 	EXP 	window1: recordFrameIntervals = False
+62.7838 	EXP 	image_2: autoDraw = False
+62.7838 	EXP 	imagePres: autoDraw = False
+62.7838 	EXP 	imagePres: pos = array([0., 0.])
+62.7838 	EXP 	imagePres: image = '../img/31_1_3.png'
+62.7838 	EXP 	image_2: autoDraw = True
+62.7838 	EXP 	imagePres: autoDraw = True
+62.7841 	EXP 	window1: recordFrameIntervals = False
+63.6985 	EXP 	New trial (rep=0, index=49): {'Stimuli': '34_1_1.png', 'Condition': 'scissor', 'corrAns': 'right'}
+63.7249 	EXP 	window1: recordFrameIntervals = False
+63.7501 	EXP 	image_2: autoDraw = False
+63.7501 	EXP 	imagePres: autoDraw = False
+63.7501 	EXP 	imagePres: pos = array([0., 0.])
+63.7501 	EXP 	imagePres: image = '../img/34_1_1.png'
+63.7501 	EXP 	image_2: autoDraw = True
+63.7501 	EXP 	imagePres: autoDraw = True
+63.7509 	EXP 	window1: recordFrameIntervals = False
+64.6671 	EXP 	New trial (rep=0, index=50): {'Stimuli': '34_1_2.png', 'Condition': 'scissor', 'corrAns': None}
+64.6853 	EXP 	window1: recordFrameIntervals = False
+64.7142 	EXP 	image_2: autoDraw = False
+64.7142 	EXP 	imagePres: autoDraw = False
+64.7142 	EXP 	imagePres: pos = array([0., 0.])
+64.7142 	EXP 	imagePres: image = '../img/34_1_2.png'
+64.7142 	EXP 	image_2: autoDraw = True
+64.7142 	EXP 	imagePres: autoDraw = True
+64.7144 	EXP 	window1: recordFrameIntervals = False
+65.4702 	DATA 	Keypress: escape
+65.6208 	EXP 	window1: mouseVisible = True

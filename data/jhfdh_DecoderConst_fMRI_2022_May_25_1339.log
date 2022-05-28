@@ -1,0 +1,29 @@
+1.3569 	WARNING 	Speech-to-text recognition module not available (use command `pip install SpeechRecognition` to get it. Transcription will be unavailable.
+1.5438 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+13.3183 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1920, 1200]. Using actual size
+14.0900 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7efd4a66ceb0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7efd22f37580>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.0901 	EXP 	window1: mouseVisible = True
+14.0901 	EXP 	window1: recordFrameIntervals = False
+14.2581 	EXP 	window1: recordFrameIntervals = True
+14.4405 	EXP 	window1: recordFrameIntervals = False
+14.4418 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='norm', win=Window(...))
+14.4425 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='norm', win=Window(...))
+14.4451 	EXP 	Created imagePres = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imagePres', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+14.5517 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thanks!', units='norm', win=Window(...), wrapWidth=1)
+14.5529 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='norm', win=Window(...))
+14.5600 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([0.5, 0.5, 0.5]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Hello World', units='norm', win=Window(...), wrapWidth=1)
+14.5601 	EXP 	launchScan: vol: 5  TR: 2.000s  skip: 0  sync: 't'
+14.5670 	EXP 	window1: mouseVisible = True
+14.6071 	EXP 	unnamed RatingScale: flipVert = False
+15.2080 	DATA 	Keypress: return
+15.2248 	EXP 	window1: mouseVisible = False
+15.2412 	DATA 	EmulatedKey: t
+15.2413 	EXP 	launchScan: start of scan
+15.2739 	EXP 	unnamed TextStim: text = '0 volumes\n0.000 seconds'
+17.2413 	DATA 	EmulatedKey: t
+17.2856 	EXP 	Imported ./runOne.xlsx as conditions, 597 conditions, 3 params
+17.2897 	EXP 	Created sequence: sequential, trialTypes=597, nReps=1, seed=None
+19.2412 	DATA 	EmulatedKey: t
+21.2412 	DATA 	EmulatedKey: t
+23.2412 	DATA 	EmulatedKey: t
+25.2523 	EXP 	window1: mouseVisible = True

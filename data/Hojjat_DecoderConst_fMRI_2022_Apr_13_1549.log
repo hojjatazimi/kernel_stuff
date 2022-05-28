@@ -1,0 +1,49 @@
+1.2019 	WARNING 	Speech-to-text recognition module not available (use command `pip install SpeechRecognition` to get it. Transcription will be unavailable.
+1.4069 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+14.2040 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1920, 1200]. Using actual size
+15.7449 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7f5261168b50>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7f523b9e9250>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+15.7451 	EXP 	window1: mouseVisible = True
+15.7451 	EXP 	window1: recordFrameIntervals = False
+15.9111 	EXP 	window1: recordFrameIntervals = True
+16.1445 	EXP 	window1: recordFrameIntervals = False
+16.1462 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='norm', win=Window(...))
+16.1470 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='norm', win=Window(...))
+16.1492 	EXP 	Created imagePres = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imagePres', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+16.1993 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thanks!', units='norm', win=Window(...), wrapWidth=1)
+16.2004 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='norm', win=Window(...))
+16.2078 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([0.5, 0.5, 0.5]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Hello World', units='norm', win=Window(...), wrapWidth=1)
+16.2078 	EXP 	launchScan: vol: 5  TR: 2.000s  skip: 0  sync: 't'
+16.2164 	EXP 	window1: mouseVisible = True
+16.2450 	EXP 	unnamed RatingScale: flipVert = False
+16.8788 	DATA 	Keypress: left
+17.1617 	DATA 	Keypress: right
+18.3627 	DATA 	Keypress: return
+18.3797 	EXP 	window1: mouseVisible = False
+18.5797 	DATA 	EmulatedKey: t
+18.5799 	EXP 	launchScan: start of scan
+18.6127 	EXP 	unnamed TextStim: text = '0 volumes\n0.000 seconds'
+20.5797 	DATA 	EmulatedKey: t
+20.6556 	EXP 	Imported ./runTwo.xlsx as conditions, 600 conditions, 3 params
+20.6598 	EXP 	Created sequence: sequential, trialTypes=600, nReps=1, seed=None
+20.6602 	EXP 	New trial (rep=0, index=0): {'Stimuli': '12_2_1.png', 'Condition': 'mouse', 'corrAns': None}
+20.6901 	EXP 	window1: recordFrameIntervals = False
+20.6978 	EXP 	image: autoDraw = False
+20.6978 	EXP 	imagePres: pos = array([0., 0.])
+20.6978 	EXP 	imagePres: image = '../img/12_2_1.png'
+20.6978 	EXP 	image_2: autoDraw = True
+20.6978 	EXP 	imagePres: autoDraw = True
+20.6981 	EXP 	window1: recordFrameIntervals = False
+21.6164 	EXP 	New trial (rep=0, index=1): {'Stimuli': '12_2_2.png', 'Condition': 'mouse', 'corrAns': None}
+21.6409 	EXP 	window1: recordFrameIntervals = False
+21.6489 	EXP 	image_2: autoDraw = False
+21.6489 	EXP 	imagePres: autoDraw = False
+21.6489 	EXP 	image_2: autoDraw = False
+21.6489 	EXP 	imagePres: autoDraw = False
+21.6489 	EXP 	imagePres: pos = array([0., 0.])
+21.6489 	EXP 	imagePres: image = '../img/12_2_2.png'
+21.6489 	EXP 	image_2: autoDraw = True
+21.6489 	EXP 	imagePres: autoDraw = True
+21.6492 	EXP 	window1: recordFrameIntervals = False
+22.3608 	DATA 	Keypress: escape
+22.5797 	DATA 	EmulatedKey: t
+24.5844 	EXP 	window1: mouseVisible = True

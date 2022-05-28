@@ -1,0 +1,728 @@
+0.8095 	WARNING 	Speech-to-text recognition module not available (use command `pip install SpeechRecognition` to get it. Transcription will be unavailable.
+0.9947 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+18.7728 	WARNING 	User requested fullscreen with size [1440  900], but screen is actually [1920, 1200]. Using actual size
+19.4250 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fd7cf7a7f70>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fd7b00ac640>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1200]), stencilBits=0, stereo=False, units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+19.4250 	EXP 	window1: mouseVisible = True
+19.4250 	EXP 	window1: recordFrameIntervals = False
+19.5915 	EXP 	window1: recordFrameIntervals = True
+19.7751 	EXP 	window1: recordFrameIntervals = False
+19.7762 	EXP 	Created image = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='norm', win=Window(...))
+19.7769 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='norm', win=Window(...))
+19.7788 	EXP 	Created imagePres = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='imagePres', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128, units='norm', win=Window(...))
+19.8417 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([-1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thanks!', units='norm', win=Window(...), wrapWidth=1)
+19.8425 	EXP 	Created image_3 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, image=None, interpolate=True, mask=None, maskParams=None, name='image_3', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='norm', win=Window(...))
+19.8465 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([0.5, 0.5, 0.5]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Hello World', units='norm', win=Window(...), wrapWidth=1)
+19.8465 	EXP 	launchScan: vol: 5  TR: 2.000s  skip: 0  sync: 't'
+19.8520 	EXP 	window1: mouseVisible = True
+19.8751 	EXP 	unnamed RatingScale: flipVert = False
+23.4968 	DATA 	Keypress: return
+23.5115 	EXP 	window1: mouseVisible = False
+23.5286 	DATA 	EmulatedKey: t
+23.5287 	EXP 	launchScan: start of scan
+23.5613 	EXP 	unnamed TextStim: text = '0 volumes\n0.000 seconds'
+25.5286 	DATA 	EmulatedKey: t
+25.5621 	EXP 	Imported ./runOne.xlsx as conditions, 597 conditions, 3 params
+25.5655 	EXP 	Created sequence: sequential, trialTypes=597, nReps=1, seed=None
+25.5661 	EXP 	New trial (rep=0, index=0): {'Stimuli': '7_1_5.png', 'Condition': 'bee', 'corrAns': None}
+25.5826 	EXP 	window1: recordFrameIntervals = False
+25.5963 	EXP 	image: autoDraw = False
+25.5963 	EXP 	imagePres: pos = array([0., 0.])
+25.5963 	EXP 	imagePres: image = '../img/7_1_5.png'
+25.5963 	EXP 	image_2: autoDraw = True
+25.5963 	EXP 	imagePres: autoDraw = True
+25.5965 	EXP 	window1: recordFrameIntervals = False
+26.5308 	EXP 	New trial (rep=0, index=1): {'Stimuli': '7_1_8.png', 'Condition': 'bee', 'corrAns': None}
+26.5468 	EXP 	window1: recordFrameIntervals = False
+26.5637 	EXP 	image_2: autoDraw = False
+26.5637 	EXP 	imagePres: autoDraw = False
+26.5637 	EXP 	imagePres: pos = array([0., 0.])
+26.5637 	EXP 	imagePres: image = '../img/7_1_8.png'
+26.5637 	EXP 	image_2: autoDraw = True
+26.5637 	EXP 	imagePres: autoDraw = True
+26.5639 	EXP 	window1: recordFrameIntervals = False
+27.4814 	EXP 	New trial (rep=0, index=2): {'Stimuli': '7_1_2.png', 'Condition': 'bee', 'corrAns': None}
+27.4936 	EXP 	window1: recordFrameIntervals = False
+27.5195 	EXP 	image_2: autoDraw = False
+27.5195 	EXP 	imagePres: autoDraw = False
+27.5195 	EXP 	image_2: autoDraw = False
+27.5195 	EXP 	imagePres: autoDraw = False
+27.5195 	EXP 	imagePres: pos = array([0., 0.])
+27.5195 	EXP 	imagePres: image = '../img/7_1_2.png'
+27.5195 	EXP 	image_2: autoDraw = True
+27.5195 	EXP 	imagePres: autoDraw = True
+27.5286 	DATA 	EmulatedKey: t
+27.5287 	EXP 	window1: recordFrameIntervals = False
+28.4323 	EXP 	New trial (rep=0, index=3): {'Stimuli': '7_1_12.png', 'Condition': 'bee', 'corrAns': None}
+28.4468 	EXP 	window1: recordFrameIntervals = False
+28.4652 	EXP 	image_2: autoDraw = False
+28.4652 	EXP 	imagePres: autoDraw = False
+28.4652 	EXP 	image_2: autoDraw = False
+28.4652 	EXP 	imagePres: autoDraw = False
+28.4652 	EXP 	imagePres: pos = array([0., 0.])
+28.4652 	EXP 	imagePres: image = '../img/7_1_12.png'
+28.4652 	EXP 	image_2: autoDraw = True
+28.4652 	EXP 	imagePres: autoDraw = True
+28.4653 	EXP 	window1: recordFrameIntervals = False
+29.3825 	EXP 	New trial (rep=0, index=4): {'Stimuli': '36_1_4.png', 'Condition': 'key', 'corrAns': 'right'}
+29.3956 	EXP 	window1: recordFrameIntervals = False
+29.4159 	EXP 	image_2: autoDraw = False
+29.4159 	EXP 	imagePres: autoDraw = False
+29.4159 	EXP 	image_2: autoDraw = False
+29.4159 	EXP 	imagePres: autoDraw = False
+29.4159 	EXP 	imagePres: pos = array([0., 0.])
+29.4159 	EXP 	imagePres: image = '../img/36_1_4.png'
+29.4159 	EXP 	image_2: autoDraw = True
+29.4159 	EXP 	imagePres: autoDraw = True
+29.4162 	EXP 	window1: recordFrameIntervals = False
+29.5286 	DATA 	EmulatedKey: t
+30.3335 	EXP 	New trial (rep=0, index=5): {'Stimuli': '36_1_7.png', 'Condition': 'key', 'corrAns': None}
+30.3457 	EXP 	window1: recordFrameIntervals = False
+30.3514 	EXP 	image_2: autoDraw = False
+30.3514 	EXP 	imagePres: autoDraw = False
+30.3514 	EXP 	image_2: autoDraw = False
+30.3514 	EXP 	imagePres: autoDraw = False
+30.3514 	EXP 	imagePres: pos = array([0., 0.])
+30.3514 	EXP 	imagePres: image = '../img/36_1_7.png'
+30.3514 	EXP 	image_2: autoDraw = True
+30.3514 	EXP 	imagePres: autoDraw = True
+30.3516 	EXP 	window1: recordFrameIntervals = False
+31.2843 	EXP 	New trial (rep=0, index=6): {'Stimuli': '36_1_11.png', 'Condition': 'key', 'corrAns': None}
+31.2984 	EXP 	window1: recordFrameIntervals = False
+31.3174 	EXP 	image_2: autoDraw = False
+31.3174 	EXP 	imagePres: autoDraw = False
+31.3174 	EXP 	image_2: autoDraw = False
+31.3174 	EXP 	imagePres: autoDraw = False
+31.3174 	EXP 	imagePres: pos = array([0., 0.])
+31.3174 	EXP 	imagePres: image = '../img/36_1_11.png'
+31.3174 	EXP 	image_2: autoDraw = True
+31.3174 	EXP 	imagePres: autoDraw = True
+31.3175 	EXP 	window1: recordFrameIntervals = False
+31.5286 	DATA 	EmulatedKey: t
+32.2361 	EXP 	New trial (rep=0, index=7): {'Stimuli': '36_1_14.png', 'Condition': 'key', 'corrAns': None}
+32.2476 	EXP 	window1: recordFrameIntervals = False
+32.2681 	EXP 	image_2: autoDraw = False
+32.2681 	EXP 	imagePres: autoDraw = False
+32.2681 	EXP 	image_2: autoDraw = False
+32.2681 	EXP 	imagePres: autoDraw = False
+32.2681 	EXP 	imagePres: pos = array([0., 0.])
+32.2681 	EXP 	imagePres: image = '../img/36_1_14.png'
+32.2681 	EXP 	image_2: autoDraw = True
+32.2681 	EXP 	imagePres: autoDraw = True
+32.2683 	EXP 	window1: recordFrameIntervals = False
+33.1858 	EXP 	New trial (rep=0, index=8): {'Stimuli': '36_1_5.png', 'Condition': 'key', 'corrAns': None}
+33.1994 	EXP 	window1: recordFrameIntervals = False
+33.2188 	EXP 	image_2: autoDraw = False
+33.2188 	EXP 	imagePres: autoDraw = False
+33.2188 	EXP 	image_2: autoDraw = False
+33.2188 	EXP 	imagePres: autoDraw = False
+33.2188 	EXP 	imagePres: pos = array([0., 0.])
+33.2188 	EXP 	imagePres: image = '../img/36_1_5.png'
+33.2188 	EXP 	image_2: autoDraw = True
+33.2188 	EXP 	imagePres: autoDraw = True
+33.2190 	EXP 	window1: recordFrameIntervals = False
+34.1365 	EXP 	New trial (rep=0, index=9): {'Stimuli': '36_1_2.png', 'Condition': 'key', 'corrAns': None}
+34.1502 	EXP 	window1: recordFrameIntervals = False
+34.1696 	EXP 	image_2: autoDraw = False
+34.1696 	EXP 	imagePres: autoDraw = False
+34.1696 	EXP 	image_2: autoDraw = False
+34.1696 	EXP 	imagePres: autoDraw = False
+34.1696 	EXP 	imagePres: pos = array([0., 0.])
+34.1696 	EXP 	imagePres: image = '../img/36_1_2.png'
+34.1696 	EXP 	image_2: autoDraw = True
+34.1696 	EXP 	imagePres: autoDraw = True
+34.1697 	EXP 	window1: recordFrameIntervals = False
+35.0873 	EXP 	New trial (rep=0, index=10): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0873 	EXP 	New trial (rep=0, index=11): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0874 	EXP 	New trial (rep=0, index=12): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0874 	EXP 	New trial (rep=0, index=13): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0875 	EXP 	New trial (rep=0, index=14): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0875 	EXP 	New trial (rep=0, index=15): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0876 	EXP 	New trial (rep=0, index=16): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0876 	EXP 	New trial (rep=0, index=17): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0877 	EXP 	New trial (rep=0, index=18): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0877 	EXP 	New trial (rep=0, index=19): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0878 	EXP 	New trial (rep=0, index=20): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0878 	EXP 	New trial (rep=0, index=21): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0879 	EXP 	New trial (rep=0, index=22): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0879 	EXP 	New trial (rep=0, index=23): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0879 	EXP 	New trial (rep=0, index=24): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0880 	EXP 	New trial (rep=0, index=25): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0880 	EXP 	New trial (rep=0, index=26): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0881 	EXP 	New trial (rep=0, index=27): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0881 	EXP 	New trial (rep=0, index=28): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0882 	EXP 	New trial (rep=0, index=29): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0882 	EXP 	New trial (rep=0, index=30): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0883 	EXP 	New trial (rep=0, index=31): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0883 	EXP 	New trial (rep=0, index=32): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0884 	EXP 	New trial (rep=0, index=33): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0884 	EXP 	New trial (rep=0, index=34): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0885 	EXP 	New trial (rep=0, index=35): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0885 	EXP 	New trial (rep=0, index=36): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0885 	EXP 	New trial (rep=0, index=37): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0886 	EXP 	New trial (rep=0, index=38): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0886 	EXP 	New trial (rep=0, index=39): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0887 	EXP 	New trial (rep=0, index=40): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0887 	EXP 	New trial (rep=0, index=41): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0888 	EXP 	New trial (rep=0, index=42): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0888 	EXP 	New trial (rep=0, index=43): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0889 	EXP 	New trial (rep=0, index=44): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0889 	EXP 	New trial (rep=0, index=45): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0889 	EXP 	New trial (rep=0, index=46): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0890 	EXP 	New trial (rep=0, index=47): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0890 	EXP 	New trial (rep=0, index=48): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0891 	EXP 	New trial (rep=0, index=49): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0891 	EXP 	New trial (rep=0, index=50): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0892 	EXP 	New trial (rep=0, index=51): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0892 	EXP 	New trial (rep=0, index=52): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0893 	EXP 	New trial (rep=0, index=53): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0893 	EXP 	New trial (rep=0, index=54): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0893 	EXP 	New trial (rep=0, index=55): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0894 	EXP 	New trial (rep=0, index=56): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0894 	EXP 	New trial (rep=0, index=57): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0895 	EXP 	New trial (rep=0, index=58): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0895 	EXP 	New trial (rep=0, index=59): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0896 	EXP 	New trial (rep=0, index=60): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0896 	EXP 	New trial (rep=0, index=61): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0897 	EXP 	New trial (rep=0, index=62): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0897 	EXP 	New trial (rep=0, index=63): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0897 	EXP 	New trial (rep=0, index=64): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0898 	EXP 	New trial (rep=0, index=65): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0898 	EXP 	New trial (rep=0, index=66): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0899 	EXP 	New trial (rep=0, index=67): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0899 	EXP 	New trial (rep=0, index=68): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0900 	EXP 	New trial (rep=0, index=69): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0900 	EXP 	New trial (rep=0, index=70): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0900 	EXP 	New trial (rep=0, index=71): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0901 	EXP 	New trial (rep=0, index=72): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0901 	EXP 	New trial (rep=0, index=73): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0902 	EXP 	New trial (rep=0, index=74): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0902 	EXP 	New trial (rep=0, index=75): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0903 	EXP 	New trial (rep=0, index=76): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0903 	EXP 	New trial (rep=0, index=77): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0903 	EXP 	New trial (rep=0, index=78): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0904 	EXP 	New trial (rep=0, index=79): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0904 	EXP 	New trial (rep=0, index=80): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0905 	EXP 	New trial (rep=0, index=81): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0905 	EXP 	New trial (rep=0, index=82): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0906 	EXP 	New trial (rep=0, index=83): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0906 	EXP 	New trial (rep=0, index=84): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0907 	EXP 	New trial (rep=0, index=85): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0907 	EXP 	New trial (rep=0, index=86): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0907 	EXP 	New trial (rep=0, index=87): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0908 	EXP 	New trial (rep=0, index=88): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0908 	EXP 	New trial (rep=0, index=89): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0909 	EXP 	New trial (rep=0, index=90): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0909 	EXP 	New trial (rep=0, index=91): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0910 	EXP 	New trial (rep=0, index=92): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0910 	EXP 	New trial (rep=0, index=93): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0911 	EXP 	New trial (rep=0, index=94): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0911 	EXP 	New trial (rep=0, index=95): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0912 	EXP 	New trial (rep=0, index=96): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0912 	EXP 	New trial (rep=0, index=97): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0913 	EXP 	New trial (rep=0, index=98): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0913 	EXP 	New trial (rep=0, index=99): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0913 	EXP 	New trial (rep=0, index=100): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0914 	EXP 	New trial (rep=0, index=101): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0914 	EXP 	New trial (rep=0, index=102): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0915 	EXP 	New trial (rep=0, index=103): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0915 	EXP 	New trial (rep=0, index=104): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0916 	EXP 	New trial (rep=0, index=105): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0916 	EXP 	New trial (rep=0, index=106): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0917 	EXP 	New trial (rep=0, index=107): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0917 	EXP 	New trial (rep=0, index=108): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0917 	EXP 	New trial (rep=0, index=109): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0918 	EXP 	New trial (rep=0, index=110): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0918 	EXP 	New trial (rep=0, index=111): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0919 	EXP 	New trial (rep=0, index=112): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0919 	EXP 	New trial (rep=0, index=113): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0920 	EXP 	New trial (rep=0, index=114): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0920 	EXP 	New trial (rep=0, index=115): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0920 	EXP 	New trial (rep=0, index=116): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0921 	EXP 	New trial (rep=0, index=117): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0921 	EXP 	New trial (rep=0, index=118): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0922 	EXP 	New trial (rep=0, index=119): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0922 	EXP 	New trial (rep=0, index=120): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0923 	EXP 	New trial (rep=0, index=121): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0923 	EXP 	New trial (rep=0, index=122): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0924 	EXP 	New trial (rep=0, index=123): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0924 	EXP 	New trial (rep=0, index=124): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0924 	EXP 	New trial (rep=0, index=125): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0925 	EXP 	New trial (rep=0, index=126): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0925 	EXP 	New trial (rep=0, index=127): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0926 	EXP 	New trial (rep=0, index=128): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0926 	EXP 	New trial (rep=0, index=129): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0927 	EXP 	New trial (rep=0, index=130): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0927 	EXP 	New trial (rep=0, index=131): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0928 	EXP 	New trial (rep=0, index=132): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0928 	EXP 	New trial (rep=0, index=133): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0928 	EXP 	New trial (rep=0, index=134): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0929 	EXP 	New trial (rep=0, index=135): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0929 	EXP 	New trial (rep=0, index=136): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0930 	EXP 	New trial (rep=0, index=137): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0930 	EXP 	New trial (rep=0, index=138): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0931 	EXP 	New trial (rep=0, index=139): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0931 	EXP 	New trial (rep=0, index=140): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0931 	EXP 	New trial (rep=0, index=141): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0932 	EXP 	New trial (rep=0, index=142): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0932 	EXP 	New trial (rep=0, index=143): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0933 	EXP 	New trial (rep=0, index=144): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0933 	EXP 	New trial (rep=0, index=145): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0934 	EXP 	New trial (rep=0, index=146): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0934 	EXP 	New trial (rep=0, index=147): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0934 	EXP 	New trial (rep=0, index=148): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0935 	EXP 	New trial (rep=0, index=149): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0935 	EXP 	New trial (rep=0, index=150): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0936 	EXP 	New trial (rep=0, index=151): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0936 	EXP 	New trial (rep=0, index=152): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0937 	EXP 	New trial (rep=0, index=153): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0937 	EXP 	New trial (rep=0, index=154): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0938 	EXP 	New trial (rep=0, index=155): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0938 	EXP 	New trial (rep=0, index=156): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0939 	EXP 	New trial (rep=0, index=157): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0939 	EXP 	New trial (rep=0, index=158): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0939 	EXP 	New trial (rep=0, index=159): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0940 	EXP 	New trial (rep=0, index=160): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0940 	EXP 	New trial (rep=0, index=161): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0941 	EXP 	New trial (rep=0, index=162): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0941 	EXP 	New trial (rep=0, index=163): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0942 	EXP 	New trial (rep=0, index=164): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0942 	EXP 	New trial (rep=0, index=165): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0943 	EXP 	New trial (rep=0, index=166): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0943 	EXP 	New trial (rep=0, index=167): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0943 	EXP 	New trial (rep=0, index=168): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0944 	EXP 	New trial (rep=0, index=169): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0944 	EXP 	New trial (rep=0, index=170): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0945 	EXP 	New trial (rep=0, index=171): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0945 	EXP 	New trial (rep=0, index=172): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0946 	EXP 	New trial (rep=0, index=173): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0946 	EXP 	New trial (rep=0, index=174): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0947 	EXP 	New trial (rep=0, index=175): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0947 	EXP 	New trial (rep=0, index=176): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0947 	EXP 	New trial (rep=0, index=177): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0948 	EXP 	New trial (rep=0, index=178): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0948 	EXP 	New trial (rep=0, index=179): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0949 	EXP 	New trial (rep=0, index=180): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0949 	EXP 	New trial (rep=0, index=181): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0950 	EXP 	New trial (rep=0, index=182): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0950 	EXP 	New trial (rep=0, index=183): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0951 	EXP 	New trial (rep=0, index=184): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0951 	EXP 	New trial (rep=0, index=185): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0952 	EXP 	New trial (rep=0, index=186): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0952 	EXP 	New trial (rep=0, index=187): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0953 	EXP 	New trial (rep=0, index=188): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0953 	EXP 	New trial (rep=0, index=189): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0953 	EXP 	New trial (rep=0, index=190): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0954 	EXP 	New trial (rep=0, index=191): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0954 	EXP 	New trial (rep=0, index=192): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0955 	EXP 	New trial (rep=0, index=193): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0955 	EXP 	New trial (rep=0, index=194): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0956 	EXP 	New trial (rep=0, index=195): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0956 	EXP 	New trial (rep=0, index=196): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0957 	EXP 	New trial (rep=0, index=197): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0957 	EXP 	New trial (rep=0, index=198): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0957 	EXP 	New trial (rep=0, index=199): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0958 	EXP 	New trial (rep=0, index=200): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0958 	EXP 	New trial (rep=0, index=201): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0959 	EXP 	New trial (rep=0, index=202): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0959 	EXP 	New trial (rep=0, index=203): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0960 	EXP 	New trial (rep=0, index=204): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0960 	EXP 	New trial (rep=0, index=205): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0960 	EXP 	New trial (rep=0, index=206): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0961 	EXP 	New trial (rep=0, index=207): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0961 	EXP 	New trial (rep=0, index=208): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0962 	EXP 	New trial (rep=0, index=209): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0962 	EXP 	New trial (rep=0, index=210): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0963 	EXP 	New trial (rep=0, index=211): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0963 	EXP 	New trial (rep=0, index=212): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0964 	EXP 	New trial (rep=0, index=213): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0964 	EXP 	New trial (rep=0, index=214): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0965 	EXP 	New trial (rep=0, index=215): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0965 	EXP 	New trial (rep=0, index=216): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0966 	EXP 	New trial (rep=0, index=217): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0966 	EXP 	New trial (rep=0, index=218): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0967 	EXP 	New trial (rep=0, index=219): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0967 	EXP 	New trial (rep=0, index=220): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0968 	EXP 	New trial (rep=0, index=221): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0968 	EXP 	New trial (rep=0, index=222): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0968 	EXP 	New trial (rep=0, index=223): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0969 	EXP 	New trial (rep=0, index=224): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0969 	EXP 	New trial (rep=0, index=225): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0970 	EXP 	New trial (rep=0, index=226): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0970 	EXP 	New trial (rep=0, index=227): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0971 	EXP 	New trial (rep=0, index=228): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0971 	EXP 	New trial (rep=0, index=229): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0971 	EXP 	New trial (rep=0, index=230): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0972 	EXP 	New trial (rep=0, index=231): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0972 	EXP 	New trial (rep=0, index=232): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0973 	EXP 	New trial (rep=0, index=233): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0973 	EXP 	New trial (rep=0, index=234): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0974 	EXP 	New trial (rep=0, index=235): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0974 	EXP 	New trial (rep=0, index=236): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0975 	EXP 	New trial (rep=0, index=237): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0975 	EXP 	New trial (rep=0, index=238): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0975 	EXP 	New trial (rep=0, index=239): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0976 	EXP 	New trial (rep=0, index=240): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0976 	EXP 	New trial (rep=0, index=241): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0977 	EXP 	New trial (rep=0, index=242): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0977 	EXP 	New trial (rep=0, index=243): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0978 	EXP 	New trial (rep=0, index=244): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0978 	EXP 	New trial (rep=0, index=245): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0979 	EXP 	New trial (rep=0, index=246): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0979 	EXP 	New trial (rep=0, index=247): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0979 	EXP 	New trial (rep=0, index=248): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0980 	EXP 	New trial (rep=0, index=249): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0980 	EXP 	New trial (rep=0, index=250): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0981 	EXP 	New trial (rep=0, index=251): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0981 	EXP 	New trial (rep=0, index=252): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0982 	EXP 	New trial (rep=0, index=253): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0982 	EXP 	New trial (rep=0, index=254): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0982 	EXP 	New trial (rep=0, index=255): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0983 	EXP 	New trial (rep=0, index=256): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0983 	EXP 	New trial (rep=0, index=257): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0984 	EXP 	New trial (rep=0, index=258): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0984 	EXP 	New trial (rep=0, index=259): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0985 	EXP 	New trial (rep=0, index=260): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0985 	EXP 	New trial (rep=0, index=261): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0986 	EXP 	New trial (rep=0, index=262): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0986 	EXP 	New trial (rep=0, index=263): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0986 	EXP 	New trial (rep=0, index=264): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0987 	EXP 	New trial (rep=0, index=265): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0987 	EXP 	New trial (rep=0, index=266): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0988 	EXP 	New trial (rep=0, index=267): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0988 	EXP 	New trial (rep=0, index=268): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0989 	EXP 	New trial (rep=0, index=269): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0989 	EXP 	New trial (rep=0, index=270): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0989 	EXP 	New trial (rep=0, index=271): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0990 	EXP 	New trial (rep=0, index=272): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0990 	EXP 	New trial (rep=0, index=273): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0991 	EXP 	New trial (rep=0, index=274): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0991 	EXP 	New trial (rep=0, index=275): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0992 	EXP 	New trial (rep=0, index=276): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0992 	EXP 	New trial (rep=0, index=277): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0993 	EXP 	New trial (rep=0, index=278): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0993 	EXP 	New trial (rep=0, index=279): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0994 	EXP 	New trial (rep=0, index=280): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0994 	EXP 	New trial (rep=0, index=281): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0995 	EXP 	New trial (rep=0, index=282): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0995 	EXP 	New trial (rep=0, index=283): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0996 	EXP 	New trial (rep=0, index=284): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0996 	EXP 	New trial (rep=0, index=285): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0997 	EXP 	New trial (rep=0, index=286): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0997 	EXP 	New trial (rep=0, index=287): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0997 	EXP 	New trial (rep=0, index=288): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0998 	EXP 	New trial (rep=0, index=289): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0998 	EXP 	New trial (rep=0, index=290): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0999 	EXP 	New trial (rep=0, index=291): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.0999 	EXP 	New trial (rep=0, index=292): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1000 	EXP 	New trial (rep=0, index=293): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1000 	EXP 	New trial (rep=0, index=294): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1001 	EXP 	New trial (rep=0, index=295): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1001 	EXP 	New trial (rep=0, index=296): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1001 	EXP 	New trial (rep=0, index=297): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1002 	EXP 	New trial (rep=0, index=298): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1002 	EXP 	New trial (rep=0, index=299): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1003 	EXP 	New trial (rep=0, index=300): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1003 	EXP 	New trial (rep=0, index=301): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1004 	EXP 	New trial (rep=0, index=302): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1004 	EXP 	New trial (rep=0, index=303): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1005 	EXP 	New trial (rep=0, index=304): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1005 	EXP 	New trial (rep=0, index=305): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1005 	EXP 	New trial (rep=0, index=306): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1006 	EXP 	New trial (rep=0, index=307): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1006 	EXP 	New trial (rep=0, index=308): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1007 	EXP 	New trial (rep=0, index=309): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1007 	EXP 	New trial (rep=0, index=310): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1008 	EXP 	New trial (rep=0, index=311): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1008 	EXP 	New trial (rep=0, index=312): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1008 	EXP 	New trial (rep=0, index=313): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1009 	EXP 	New trial (rep=0, index=314): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1009 	EXP 	New trial (rep=0, index=315): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1010 	EXP 	New trial (rep=0, index=316): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1010 	EXP 	New trial (rep=0, index=317): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1011 	EXP 	New trial (rep=0, index=318): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1011 	EXP 	New trial (rep=0, index=319): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1011 	EXP 	New trial (rep=0, index=320): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1012 	EXP 	New trial (rep=0, index=321): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1012 	EXP 	New trial (rep=0, index=322): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1013 	EXP 	New trial (rep=0, index=323): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1013 	EXP 	New trial (rep=0, index=324): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1014 	EXP 	New trial (rep=0, index=325): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1014 	EXP 	New trial (rep=0, index=326): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1015 	EXP 	New trial (rep=0, index=327): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1015 	EXP 	New trial (rep=0, index=328): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1015 	EXP 	New trial (rep=0, index=329): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1016 	EXP 	New trial (rep=0, index=330): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1016 	EXP 	New trial (rep=0, index=331): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1017 	EXP 	New trial (rep=0, index=332): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1017 	EXP 	New trial (rep=0, index=333): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1018 	EXP 	New trial (rep=0, index=334): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1018 	EXP 	New trial (rep=0, index=335): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1018 	EXP 	New trial (rep=0, index=336): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1019 	EXP 	New trial (rep=0, index=337): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1019 	EXP 	New trial (rep=0, index=338): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1020 	EXP 	New trial (rep=0, index=339): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1020 	EXP 	New trial (rep=0, index=340): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1021 	EXP 	New trial (rep=0, index=341): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1022 	EXP 	New trial (rep=0, index=342): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1023 	EXP 	New trial (rep=0, index=343): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1023 	EXP 	New trial (rep=0, index=344): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1024 	EXP 	New trial (rep=0, index=345): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1024 	EXP 	New trial (rep=0, index=346): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1024 	EXP 	New trial (rep=0, index=347): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1025 	EXP 	New trial (rep=0, index=348): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1026 	EXP 	New trial (rep=0, index=349): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1026 	EXP 	New trial (rep=0, index=350): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1027 	EXP 	New trial (rep=0, index=351): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1027 	EXP 	New trial (rep=0, index=352): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1028 	EXP 	New trial (rep=0, index=353): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1028 	EXP 	New trial (rep=0, index=354): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1029 	EXP 	New trial (rep=0, index=355): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1030 	EXP 	New trial (rep=0, index=356): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1031 	EXP 	New trial (rep=0, index=357): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1032 	EXP 	New trial (rep=0, index=358): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1033 	EXP 	New trial (rep=0, index=359): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1033 	EXP 	New trial (rep=0, index=360): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1034 	EXP 	New trial (rep=0, index=361): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1034 	EXP 	New trial (rep=0, index=362): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1035 	EXP 	New trial (rep=0, index=363): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1035 	EXP 	New trial (rep=0, index=364): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1036 	EXP 	New trial (rep=0, index=365): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1036 	EXP 	New trial (rep=0, index=366): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1036 	EXP 	New trial (rep=0, index=367): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1037 	EXP 	New trial (rep=0, index=368): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1037 	EXP 	New trial (rep=0, index=369): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1038 	EXP 	New trial (rep=0, index=370): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1038 	EXP 	New trial (rep=0, index=371): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1039 	EXP 	New trial (rep=0, index=372): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1039 	EXP 	New trial (rep=0, index=373): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1040 	EXP 	New trial (rep=0, index=374): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1040 	EXP 	New trial (rep=0, index=375): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1040 	EXP 	New trial (rep=0, index=376): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1041 	EXP 	New trial (rep=0, index=377): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1041 	EXP 	New trial (rep=0, index=378): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1042 	EXP 	New trial (rep=0, index=379): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1042 	EXP 	New trial (rep=0, index=380): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1043 	EXP 	New trial (rep=0, index=381): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1043 	EXP 	New trial (rep=0, index=382): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1044 	EXP 	New trial (rep=0, index=383): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1044 	EXP 	New trial (rep=0, index=384): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1045 	EXP 	New trial (rep=0, index=385): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1045 	EXP 	New trial (rep=0, index=386): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1045 	EXP 	New trial (rep=0, index=387): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1046 	EXP 	New trial (rep=0, index=388): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1046 	EXP 	New trial (rep=0, index=389): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1047 	EXP 	New trial (rep=0, index=390): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1047 	EXP 	New trial (rep=0, index=391): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1048 	EXP 	New trial (rep=0, index=392): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1048 	EXP 	New trial (rep=0, index=393): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1049 	EXP 	New trial (rep=0, index=394): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1049 	EXP 	New trial (rep=0, index=395): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1049 	EXP 	New trial (rep=0, index=396): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1050 	EXP 	New trial (rep=0, index=397): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1050 	EXP 	New trial (rep=0, index=398): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1051 	EXP 	New trial (rep=0, index=399): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1051 	EXP 	New trial (rep=0, index=400): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1052 	EXP 	New trial (rep=0, index=401): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1052 	EXP 	New trial (rep=0, index=402): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1053 	EXP 	New trial (rep=0, index=403): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1053 	EXP 	New trial (rep=0, index=404): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1054 	EXP 	New trial (rep=0, index=405): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1054 	EXP 	New trial (rep=0, index=406): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1054 	EXP 	New trial (rep=0, index=407): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1055 	EXP 	New trial (rep=0, index=408): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1055 	EXP 	New trial (rep=0, index=409): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1056 	EXP 	New trial (rep=0, index=410): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1056 	EXP 	New trial (rep=0, index=411): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1057 	EXP 	New trial (rep=0, index=412): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1057 	EXP 	New trial (rep=0, index=413): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1058 	EXP 	New trial (rep=0, index=414): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1058 	EXP 	New trial (rep=0, index=415): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1059 	EXP 	New trial (rep=0, index=416): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1059 	EXP 	New trial (rep=0, index=417): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1059 	EXP 	New trial (rep=0, index=418): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1060 	EXP 	New trial (rep=0, index=419): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1060 	EXP 	New trial (rep=0, index=420): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1061 	EXP 	New trial (rep=0, index=421): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1061 	EXP 	New trial (rep=0, index=422): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1062 	EXP 	New trial (rep=0, index=423): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1062 	EXP 	New trial (rep=0, index=424): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1062 	EXP 	New trial (rep=0, index=425): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1063 	EXP 	New trial (rep=0, index=426): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1063 	EXP 	New trial (rep=0, index=427): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1064 	EXP 	New trial (rep=0, index=428): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1064 	EXP 	New trial (rep=0, index=429): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1065 	EXP 	New trial (rep=0, index=430): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1065 	EXP 	New trial (rep=0, index=431): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1065 	EXP 	New trial (rep=0, index=432): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1066 	EXP 	New trial (rep=0, index=433): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1066 	EXP 	New trial (rep=0, index=434): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1067 	EXP 	New trial (rep=0, index=435): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1067 	EXP 	New trial (rep=0, index=436): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1068 	EXP 	New trial (rep=0, index=437): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1068 	EXP 	New trial (rep=0, index=438): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1069 	EXP 	New trial (rep=0, index=439): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1069 	EXP 	New trial (rep=0, index=440): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1069 	EXP 	New trial (rep=0, index=441): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1070 	EXP 	New trial (rep=0, index=442): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1070 	EXP 	New trial (rep=0, index=443): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1071 	EXP 	New trial (rep=0, index=444): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1071 	EXP 	New trial (rep=0, index=445): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1072 	EXP 	New trial (rep=0, index=446): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1072 	EXP 	New trial (rep=0, index=447): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1073 	EXP 	New trial (rep=0, index=448): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1073 	EXP 	New trial (rep=0, index=449): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1074 	EXP 	New trial (rep=0, index=450): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1074 	EXP 	New trial (rep=0, index=451): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1075 	EXP 	New trial (rep=0, index=452): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1075 	EXP 	New trial (rep=0, index=453): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1075 	EXP 	New trial (rep=0, index=454): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1076 	EXP 	New trial (rep=0, index=455): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1076 	EXP 	New trial (rep=0, index=456): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1077 	EXP 	New trial (rep=0, index=457): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1077 	EXP 	New trial (rep=0, index=458): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1078 	EXP 	New trial (rep=0, index=459): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1078 	EXP 	New trial (rep=0, index=460): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1078 	EXP 	New trial (rep=0, index=461): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1079 	EXP 	New trial (rep=0, index=462): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1079 	EXP 	New trial (rep=0, index=463): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1080 	EXP 	New trial (rep=0, index=464): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1080 	EXP 	New trial (rep=0, index=465): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1081 	EXP 	New trial (rep=0, index=466): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1081 	EXP 	New trial (rep=0, index=467): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1082 	EXP 	New trial (rep=0, index=468): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1082 	EXP 	New trial (rep=0, index=469): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1083 	EXP 	New trial (rep=0, index=470): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1083 	EXP 	New trial (rep=0, index=471): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1084 	EXP 	New trial (rep=0, index=472): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1084 	EXP 	New trial (rep=0, index=473): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1085 	EXP 	New trial (rep=0, index=474): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1085 	EXP 	New trial (rep=0, index=475): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1086 	EXP 	New trial (rep=0, index=476): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1086 	EXP 	New trial (rep=0, index=477): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1087 	EXP 	New trial (rep=0, index=478): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1087 	EXP 	New trial (rep=0, index=479): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1088 	EXP 	New trial (rep=0, index=480): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1088 	EXP 	New trial (rep=0, index=481): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1088 	EXP 	New trial (rep=0, index=482): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1089 	EXP 	New trial (rep=0, index=483): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1089 	EXP 	New trial (rep=0, index=484): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1090 	EXP 	New trial (rep=0, index=485): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1090 	EXP 	New trial (rep=0, index=486): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1091 	EXP 	New trial (rep=0, index=487): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1091 	EXP 	New trial (rep=0, index=488): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1092 	EXP 	New trial (rep=0, index=489): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1092 	EXP 	New trial (rep=0, index=490): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1092 	EXP 	New trial (rep=0, index=491): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1093 	EXP 	New trial (rep=0, index=492): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1093 	EXP 	New trial (rep=0, index=493): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1094 	EXP 	New trial (rep=0, index=494): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1094 	EXP 	New trial (rep=0, index=495): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1095 	EXP 	New trial (rep=0, index=496): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1095 	EXP 	New trial (rep=0, index=497): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1096 	EXP 	New trial (rep=0, index=498): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1096 	EXP 	New trial (rep=0, index=499): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1097 	EXP 	New trial (rep=0, index=500): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1097 	EXP 	New trial (rep=0, index=501): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1097 	EXP 	New trial (rep=0, index=502): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1098 	EXP 	New trial (rep=0, index=503): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1098 	EXP 	New trial (rep=0, index=504): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1099 	EXP 	New trial (rep=0, index=505): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1099 	EXP 	New trial (rep=0, index=506): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1100 	EXP 	New trial (rep=0, index=507): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1100 	EXP 	New trial (rep=0, index=508): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1101 	EXP 	New trial (rep=0, index=509): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1101 	EXP 	New trial (rep=0, index=510): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1101 	EXP 	New trial (rep=0, index=511): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1102 	EXP 	New trial (rep=0, index=512): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1102 	EXP 	New trial (rep=0, index=513): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1103 	EXP 	New trial (rep=0, index=514): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1103 	EXP 	New trial (rep=0, index=515): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1104 	EXP 	New trial (rep=0, index=516): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1104 	EXP 	New trial (rep=0, index=517): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1104 	EXP 	New trial (rep=0, index=518): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1105 	EXP 	New trial (rep=0, index=519): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1105 	EXP 	New trial (rep=0, index=520): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1106 	EXP 	New trial (rep=0, index=521): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1106 	EXP 	New trial (rep=0, index=522): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1107 	EXP 	New trial (rep=0, index=523): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1107 	EXP 	New trial (rep=0, index=524): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1107 	EXP 	New trial (rep=0, index=525): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1108 	EXP 	New trial (rep=0, index=526): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1108 	EXP 	New trial (rep=0, index=527): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1109 	EXP 	New trial (rep=0, index=528): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1109 	EXP 	New trial (rep=0, index=529): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1110 	EXP 	New trial (rep=0, index=530): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1110 	EXP 	New trial (rep=0, index=531): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1111 	EXP 	New trial (rep=0, index=532): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1111 	EXP 	New trial (rep=0, index=533): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1112 	EXP 	New trial (rep=0, index=534): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1112 	EXP 	New trial (rep=0, index=535): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1113 	EXP 	New trial (rep=0, index=536): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1113 	EXP 	New trial (rep=0, index=537): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1114 	EXP 	New trial (rep=0, index=538): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1114 	EXP 	New trial (rep=0, index=539): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1114 	EXP 	New trial (rep=0, index=540): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1115 	EXP 	New trial (rep=0, index=541): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1115 	EXP 	New trial (rep=0, index=542): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1116 	EXP 	New trial (rep=0, index=543): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1116 	EXP 	New trial (rep=0, index=544): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1117 	EXP 	New trial (rep=0, index=545): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1117 	EXP 	New trial (rep=0, index=546): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1118 	EXP 	New trial (rep=0, index=547): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1118 	EXP 	New trial (rep=0, index=548): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1118 	EXP 	New trial (rep=0, index=549): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1119 	EXP 	New trial (rep=0, index=550): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1119 	EXP 	New trial (rep=0, index=551): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1120 	EXP 	New trial (rep=0, index=552): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1120 	EXP 	New trial (rep=0, index=553): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1121 	EXP 	New trial (rep=0, index=554): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1121 	EXP 	New trial (rep=0, index=555): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1122 	EXP 	New trial (rep=0, index=556): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1122 	EXP 	New trial (rep=0, index=557): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1122 	EXP 	New trial (rep=0, index=558): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1123 	EXP 	New trial (rep=0, index=559): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1123 	EXP 	New trial (rep=0, index=560): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1124 	EXP 	New trial (rep=0, index=561): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1124 	EXP 	New trial (rep=0, index=562): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1125 	EXP 	New trial (rep=0, index=563): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1125 	EXP 	New trial (rep=0, index=564): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1125 	EXP 	New trial (rep=0, index=565): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1126 	EXP 	New trial (rep=0, index=566): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1126 	EXP 	New trial (rep=0, index=567): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1127 	EXP 	New trial (rep=0, index=568): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1127 	EXP 	New trial (rep=0, index=569): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1128 	EXP 	New trial (rep=0, index=570): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1128 	EXP 	New trial (rep=0, index=571): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1128 	EXP 	New trial (rep=0, index=572): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1129 	EXP 	New trial (rep=0, index=573): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1129 	EXP 	New trial (rep=0, index=574): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1130 	EXP 	New trial (rep=0, index=575): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1130 	EXP 	New trial (rep=0, index=576): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1131 	EXP 	New trial (rep=0, index=577): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1131 	EXP 	New trial (rep=0, index=578): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1131 	EXP 	New trial (rep=0, index=579): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1132 	EXP 	New trial (rep=0, index=580): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1132 	EXP 	New trial (rep=0, index=581): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1133 	EXP 	New trial (rep=0, index=582): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1133 	EXP 	New trial (rep=0, index=583): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1134 	EXP 	New trial (rep=0, index=584): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1134 	EXP 	New trial (rep=0, index=585): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1135 	EXP 	New trial (rep=0, index=586): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1135 	EXP 	New trial (rep=0, index=587): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1135 	EXP 	New trial (rep=0, index=588): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1136 	EXP 	New trial (rep=0, index=589): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1136 	EXP 	New trial (rep=0, index=590): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1137 	EXP 	New trial (rep=0, index=591): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1137 	EXP 	New trial (rep=0, index=592): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1138 	EXP 	New trial (rep=0, index=593): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1138 	EXP 	New trial (rep=0, index=594): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1139 	EXP 	New trial (rep=0, index=595): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1139 	EXP 	New trial (rep=0, index=596): {'Stimuli': None, 'Condition': None, 'corrAns': None}
+35.1203 	EXP 	image_2: autoDraw = False
+35.1203 	EXP 	imagePres: autoDraw = False
+35.1203 	EXP 	image_2: autoDraw = False
+35.1203 	EXP 	imagePres: autoDraw = False
+35.1203 	EXP 	text_2: autoDraw = True
+35.1203 	EXP 	image_3: autoDraw = True
+38.8066 	DATA 	Keypress: escape
+38.8113 	EXP 	window1: mouseVisible = True

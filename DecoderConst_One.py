@@ -166,14 +166,16 @@ def set_test_or_scan(_win, mr_settings, global_clock, _counter):
     return _vol, _counter
 
 
-def send_trigger(eve, value):
+def send_trigger(eve, value, timestamp=None):
     print('TRIGGER', eve, value)
 
     global trig_id
 
     trig_id += 1
 
+    # if timestamp is None:
     timestamp = time()
+
     data_to_send = {
         "id": trig_id,
         "timestamp": int(timestamp * 1e9),
@@ -183,6 +185,16 @@ def send_trigger(eve, value):
     event = json.dumps(data_to_send).encode("utf-8")
     sock = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     sock.sendto(event, ("239.128.35.86", 7891))
+
+
+def start_block(block_counter, condition):
+    time_stamp = time()
+    send_trigger('start_block', str(block_counter), time_stamp)
+    send_trigger('block_type', condition)
+
+
+def end_block(block_counter):
+    send_trigger('end_block', str(block_counter))
 
 
 session_number = choose_session()
@@ -229,6 +241,8 @@ vol, counter = set_test_or_scan(win, MR_settings, globalClock, counter)
 duration = MR_settings['volumes'] * MR_settings['TR']
 
 # note: globalClock has been reset to 0.0 by launchScan() in set_test_or_scan
+prev_condition = 'meh'
+block_counter = 1
 while globalClock.getTime() < duration:
     allKeys = event.getKeys()
     for key in allKeys:
@@ -445,12 +459,19 @@ while globalClock.getTime() < duration:
                         if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
                             win.flip()
                             if cntr == 1:
-                                send_trigger('event_stim', Condition + '-' + stimuli.replace('_', '-'))
+                                if prev_condition != Condition:
+                                    if prev_condition != 'meh':
+                                        end_block(block_counter)
+                                        block_counter += 1
+                                        # send_trigger('end_block', block_counter)
+                                    # send_trigger('start_block', block_counter)
+                                    start_block(block_counter, Condition)
 
+                                send_trigger('event_stim', Condition + '-' + stimuli.replace('_', '-'))
+                                prev_condition = Condition
                                 # if trial_index > 0:
                                 #     send_trigger('end_trial', '0')
                                 # send_trigger('start_trial', Condition + '-' + stimuli.replace('_', '-'))
-
 
                     # -------Ending Routine "trial"-------
                     for thisComponent in trialComponents:
@@ -478,6 +499,7 @@ while globalClock.getTime() < duration:
             t = 0
             EndClock.reset()  # clock 
             routineTimer.reset()
+            end_block(block_counter)
             send_trigger('end_experiment', '0')
             frameN = -1
             routineTimer.add(9.000000)
